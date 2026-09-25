@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Васильева Анна — Резюме</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Кастомный курсор -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Корейские декоративные элементы -->
+    <div class="korean-deco deco-1">🌸</div>
+    <div class="korean-deco deco-2">✨</div>
+    <div class="korean-deco deco-3">💜</div>
+    <div class="korean-deco deco-4">🌸</div>
+    <div class="korean-deco deco-5">✨</div>
+
+    <!-- Навигация -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">О себе</a></li>
+                    <li><a href="#skills" class="nav-link">Навыки</a></li>
+                    <li><a href="#education" class="nav-link">Образование</a></li>
+                    <li><a href="#hobbies" class="nav-link">Увлечения</a></li>
+                    <li><a href="#works" class="nav-link">Мои работы</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Переключить тему">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-image-wrapper fade-in">
+                    <div class="hero-image-frame">
+                        <img src="kr.jpg" alt="Васильева Анна" class="hero-image">
+                    </div>
+                    <span class="hero-badge">안녕하세요 ✨</span>
+                </div>
+                <div class="hero-content fade-in">
+                    <h1 class="hero-title">Васильева Анна Станиславовна</h1>
+                    <p class="hero-age"><i class="fas fa-birthday-cake"></i> 21 год</p>
+                    <p class="hero-specialty">IT-технологии создания цифрового контента</p>
+                    <p class="hero-bio">Родом из Иркутской области, сейчас учусь в Санкт-Петербурге. Увлекаюсь цифровым контентом, дизайном и изучением веб-технологий.</p>
+                    <div class="hero-socials">
+                        <a href="https://t.me/Lachimo_la_la" class="social-link" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="https://vk.ru/id458473656" class="social-link" aria-label="VK"><i class="fab fa-vk"></i></a>
+                        <a href="mailto:mironova26anna@mail.ru" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+79642271052" class="social-link" aria-label="Телефон"><i class="fas fa-phone-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- О себе -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">О себе <span class="title-hangul">자기소개</span></h2>
+                <div class="about-grid">
+                    <div class="about-text fade-in">
+                        <p>Меня зовут Аня, и я родом из Иркутской области. Сейчас я живу и учусь в Санкт-Петербурге. 
+                            Мой путь в IT начался с поступления в Машиностроительный колледж при Иркутской Политехе (ИРНИТУ), куда 
+                            я поступила в 2021 году на специальность "Информационные системы и программирование".</p>
+                        <p>Считается, что сочетание технических знаний и творческого подхода позволяет создавать действительно 
+                            уникальные проекты. Я также придерживаюсь этого взгляда и изучаю веб-технологии, дизайн и современные 
+                            медиа. Вдохновение я черпаю из своих увлечений, в том числе из интереса к корейской культуре</p>
+                    </div>
+                    <div class="about-stats fade-in">
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">курс</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">учебных заведения</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">+ увлечений</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Навыки -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title fade-in">Навыки <span class="title-hangul">기술</span></h2>
+                <div class="skills-text fade-in">
+                    <div class="skill-item">
+                        <i class="fab fa-html5 skill-icon html-icon"></i>
+                        <p><strong>HTML</strong> — базовый уровень</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt skill-icon css-icon"></i>
+                        <p><strong>CSS</strong> — базовый уровень</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-php skill-icon php-icon"></i>
+                        <p><strong>PHP</strong> — начальный уровень</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database skill-icon db-icon"></i>
+                        <p><strong>Базы данных</strong> — начальный уровень</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Образование -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">Образование <span class="title-hangul">학력</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>МБОУ Воробьёвская ООШ</h3>
+                            <p>Школа</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Машиностроительный колледж ИРНИТУ</h3>
+                            <p>Иркутский национальный исследовательский технический университет</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Санкт-Петербургский государственный университет промышленных технологий и дизайна (СПбГУПТД)</h3>
+                            <p>Сейчас, 2 курс</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Увлечения -->
+        <section id="hobbies" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title fade-in">Увлечения <span class="title-hangul">취미</span></h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card fade-in">
+                        <i class="fas fa-book-open hobby-icon"></i>
+                        <h3>Чтение книг</h3>
+                        <p>Коллекционирование домашней библиотеки</p>
+                    </div>
+                    <div class="hobby-card fade-in">
+                        <i class="fas fa-music hobby-icon"></i>
+                        <h3>K-pop</h3>
+                        <p>Музыка и культура</p>
+                    </div>
+                    <div class="hobby-card fade-in">
+                        <i class="fas fa-compact-disc hobby-icon"></i>
+                        <h3>BTS</h3>
+                        <p>Коллекционирование альбомов и мерча группы</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Мои работы -->
+        <section id="works" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">Мои работы <span class="title-hangul">작품</span></h2>
+
+                <h3 class="works-category fade-in"><i class="fas fa-code"></i> Веб-дизайн</h3>
+                <div class="works-grid works-grid-web fade-in">
+                    <div class="work-card" data-type="web" data-src="https://yoonmin9395.github.io/mouse/" data-title="Сериал «Мышь» — промо-сайт">
+                        <div class="work-preview">
+                            <i class="fas fa-laptop-code work-preview-icon"></i>
+                        </div>
+                        <div class="work-info">
+                            <h4>Сериал «Мышь»</h4>
+                            <p>Промо-сайт корейского сериала: описание, персонажи, рейтинг</p>
+                            <span class="work-tag">Веб-дизайн</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="works-category fade-in"><i class="fas fa-palette"></i> Графический контент</h3>
+                <div class="works-grid works-grid-graphic fade-in">
+                    <div class="work-card" data-type="image" data-src="Frame 4.jpg" data-title="Постер: K-POP ФЕСТИВАЛЬ В РИТМЕ ARIRANG">
+                        <div class="work-preview">
+                            <img src="Frame 4.jpg" alt="K-POP Фестиваль" class="work-thumb">
+                        </div>
+                        <div class="work-info">
+                            <h4>K-POP Фестиваль</h4>
+                            <p>«В ритме Arirang» — афиша мероприятия</p>
+                            <span class="work-tag">Графика</span>
+                        </div>
+                    </div>
+                    <div class="work-card" data-type="image" data-src="Frame 2.jpg" data-title="Постер: Come Over — скрытый трек BTS">
+                        <div class="work-preview">
+                            <img src="Frame 2.jpg" alt="Come Over" class="work-thumb">
+                        </div>
+                        <div class="work-info">
+                            <h4>Come Over</h4>
+                            <p>Промо скрытого трека BTS на виниле</p>
+                            <span class="work-tag">Графика</span>
+                        </div>
+                    </div>
+                    <div class="work-card" data-type="image" data-src="Frame 1.jpg" data-title="Постер: K-POP Фестиваль">
+                        <div class="work-preview">
+                            <img src="Frame 1.jpg" alt="Работа 3" class="work-thumb">
+                        </div>
+                        <div class="work-info">
+                            <h4>K-POP Фестиваль</h4>
+                            <p>«В ритме Arirang» — афиша мероприятия</p>
+                            <span class="work-tag">Графика</span>
+                        </div>
+                    </div>
+                    <div class="work-card" data-type="image" data-src="Frame 3.jpg" data-title="Постер: Конкурс K-POP кавер дэнс">
+                        <div class="work-preview">
+                            <img src="Frame 3.jpg" alt="Работа 4" class="work-thumb">
+                        </div>
+                        <div class="work-info">
+                            <h4>K-POP кавер дэнс</h4>
+                            <p>Конкурс K-POP кавер дэнс</p>
+                            <span class="work-tag">Графика</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contacts" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">Контакты <span class="title-hangul">연락처</span></h2>
+                <div class="contacts-grid fade-in">
+                    <a href="https://t.me/Lachimo_la_la" class="contact-item">
+                        <i class="fab fa-telegram-plane"></i>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="https://vk.ru/id458473656" class="contact-item">
+                        <i class="fab fa-vk"></i>
+                        <span>VK</span>
+                    </a>
+                    <a href="mailto:mironova26anna@mail.ru" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="tel:+79642271052" class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Телефон</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Модальное окно для работ -->
+    <div class="modal" id="work-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Закрыть">
+                <i class="fas fa-times"></i>
+            </button>
+            <h3 class="modal-title" id="modal-title"></h3>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Васильева Анна. Все права защищены. <span class="footer-hangul">화이팅! 💜</span></p>
+        </div>
+    </footer>
+
+    <button id="scroll-top" class="scroll-top" aria-label="Наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
